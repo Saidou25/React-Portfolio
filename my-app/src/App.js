@@ -1,8 +1,19 @@
 import React from 'react';
-import Hello from './components/Hello';
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Project from './components/Project';
+import Footer from './components/Footer';
+
 
 function App() {
-  return <Hello />;
+  return (
+    <div>
+      <Header />
+      <Navigation />
+      <Project />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
