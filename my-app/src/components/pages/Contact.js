@@ -12,15 +12,12 @@ function Contact() {
 
     if (yourName === 'yourName') {
       setYourName(value);
-      console.log(value);
     }
     else if (name === 'email') {
       setEmail(value);
-      console.log(value);
     }
     else if (name === 'comment') {
       setComment(value);
-      console.log(value);
     }
   };
 
