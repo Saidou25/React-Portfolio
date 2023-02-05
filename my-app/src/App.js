@@ -1,19 +1,14 @@
 import React from 'react';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
-import Project from './components/Project';
-import Footer from './components/Footer';
-
+import PageContainer from './components/PageContainer';
 
 function App() {
   return (
     <div>
-      <Header />
-      <Navigation />
-      <Project />
-      <Footer />
+
+      <PageContainer />
+
     </div>
-  );
+  )
 }
 
 export default App;

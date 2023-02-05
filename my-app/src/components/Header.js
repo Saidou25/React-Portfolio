@@ -7,7 +7,7 @@ function Header() {
           <h2>{message}</h2>
         </div>
       );
-    };
+    }
     
     export default Header;
     
