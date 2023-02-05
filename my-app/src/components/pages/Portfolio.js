@@ -1,12 +1,12 @@
 import React from 'react';
     
-import seo from './src/images/seo.jpg';
-import weather from './src/images/weather.png';
-import sofa from './src/images/sofa.png';
-import team from './src/images/team.png';
-import print from './src/images/print.png';
-import employee from './src/images/employee.png';
-console.log(seo);
+import seo from 'my-app/src/images/seo.jpg';
+import weather from 'my-app/src/images/weather.png';
+import sofa from 'my-app/src/images/sofa.png';
+import team from 'my-app/src/images/team.png';
+import print from 'my-app/src/images/print.png';
+import employee from 'my-app/src/images/employee.png';
+
 function Project() {
   
   return (
@@ -16,42 +16,47 @@ function Project() {
         <img
           alt='seo'
           className="img-fluid"
-          src={seo}
-        />
+          src={`require(${seo})`}
+          />
       </li>
        <li className="list-group-item">
         <img
           alt='weather'
           className="img-fluid"
-          src={weather}
-        />
+          src={`require(${weather})`}
+    
+          />
       </li>
       <li className="list-group-item">
         <img
           alt='sofa'
           className="img-fluid"
-          src={sofa}
-        />
+          src={`require(${sofa})`}
+
+          />
       </li>
       <li className="list-group-item">
         <img
           alt='print'
           className="img-fluid"
-          src={print}
-        />
+          src={`require(${print})`}
+       
+          />
       </li>
       <li className="list-group-item">
         <img
           alt='team'
           className="img-fluid"
-          src={team}
-        />
+          src={`require(${team})`}
+         
+          />
       </li>
       <li className="list-group-item">
         <img
           alt='employee'
           className="employee"
-          src={employee}
+          src={`require(${employee})`}
+       
         />
       </li>
     
