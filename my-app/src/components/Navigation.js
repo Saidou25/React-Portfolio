@@ -1,15 +1,16 @@
-
 import React from 'react';
+import '../styles.css/Header.css'
 
-function Navigation({ currentPage, handlePageChange }) {
+function Navigation({currentPage, handlePageChange}) {
 
   return (
-    <div className='row'>
-      <div className='col myname'><h1>Sy</h1>
-      </div>
-      <div className='col'>
 
-        <ul className="nav nav-tabs justify-content-end">
+    <div className='row row-header'>
+      <div className='col-4 myname'><h1>Sy</h1>
+      </div>
+      <div className='col-8'>
+
+        <ul className="nav justify-content-end">
           <li className="nav-item">
             <a
               href="#About"
@@ -42,8 +43,11 @@ function Navigation({ currentPage, handlePageChange }) {
         </ul>
       </div>
     </div>
+
   );
+
 };
 
 export default Navigation;
+
 

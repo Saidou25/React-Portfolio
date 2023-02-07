@@ -1,4 +1,6 @@
-
+.body {
+  max-width: 60%;
+}
 .container {
     position: relative;
     text-align: center;

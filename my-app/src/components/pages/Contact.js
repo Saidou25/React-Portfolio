@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../../styles.css/Contact.css'
 
 function Contact() {
 
@@ -30,41 +31,53 @@ function Contact() {
   };
 
   return (
-    <div>
+    <div className='row contact-container'>
+      <div className='col-6' id='left'>
+        <div className="mb-3">
+          <label for="exampleFormControlInput1" className="form-label">Name</label>
 
-      <form className="form">
-        <input
-          className='form-control'
-          value={yourName}
-          name="name"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Name"
-        />
-        <input
-          className='form-control'
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="example@example.com"
-        />
-        <input
-          className='form-control'
-          value={comment}
-          name="comment"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Comment"
-        />
-        <button
-          className='btn btn-primary'
-          type="button"
-          onClick={handleFormSubmit}>
-          Submit
-        </button>
-      </form>
 
+          <input
+            className='form-control'
+            value={yourName}
+            name="name"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Name"
+          />
+
+          <label for="exampleFormControlInput1" className="form-label">email</label>
+          <input
+            className='form-control'
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="example@example.com"
+          />
+
+          <label for="exampleFormControlInput1" className="form-label">comment</label>
+          <textarea
+            className='form-control'
+            value={comment}
+            name="comment"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Comment"
+          ></textarea>
+
+          <button
+            className='btn btn-primary'
+            type="button"
+            onClick={handleFormSubmit}>
+            Submit
+          </button>
+        </div>
+      </div>
+
+      <div className='col-6' id='right'>
+        <h3>hello</h3>
+      </div>
     </div>
   )
 };

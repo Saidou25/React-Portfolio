@@ -1,13 +1,18 @@
 import React from 'react';
-import PageContainer from './components/PageContainer';
+
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
 
-      <PageContainer />
+      <Header />
+ 
+      <Footer />
 
     </div>
+
   )
 }
 
