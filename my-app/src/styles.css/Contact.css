@@ -1,26 +1,37 @@
-.contact-container {
+.formContainer {
     border-color: black;
-margin-left: 5px;
-height: 675px;
-/* align-items: center; */
-
+    justify-content: space-between;
+    height: 650px;
+    max-width: 100%;
+    align-items: center;
+    background-color: rgb(236, 190, 121);
+    border-style: solid;
 
 }
 
- #left {
+#left {
     border-color: black;
     border-style: solid;
-    background-color: rgb(242, 216, 130);
+    background-color: rgb(186, 162, 77);
     align-items: center;
+    margin-left: 60px;
+    /* margin-top: 36px; */
+    max-width: 33%;
+    height: 70%;  
 
-justify-content: center;
-} 
+    justify-content: center;
+}
 
 
 #right {
-    display: flex;
+    border-style: solid;
     align-items: center;
     justify-content: center;
-  
+    text-align: center;
+    background-color: rgb(82, 232, 232);
+    color: blue;
+    max-width: 33%;
+   
+  margin-right: 15%;
 
-} 
+}

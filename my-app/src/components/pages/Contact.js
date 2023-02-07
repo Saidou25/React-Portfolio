@@ -3,7 +3,7 @@ import '../../styles.css/Contact.css'
 
 function Contact() {
 
-  const [yourName, setYourName] = useState('');
+  const [yourname, setYourName] = useState('');
   const [email, setEmail] = useState('');
   const [comment, setComment] = useState('');
 
@@ -11,7 +11,7 @@ function Contact() {
 
     const { name, value } = e.target;
 
-    if (yourName === 'yourName') {
+    if (yourname === 'yourname') {
       setYourName(value);
     }
     else if (name === 'email') {
@@ -24,22 +24,22 @@ function Contact() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    alert(`Thank you for your Submission ${yourName}.`)
+    alert(`Thank you for your Submission ${yourname}.`)
     setYourName('');
     setEmail('');
     setComment('');
   };
 
   return (
-    <div className='row contact-container'>
-      <div className='col-6' id='left'>
-        <div className="mb-3">
+    <div className="row formContainer t-30">
+      <div className='col-6 flex m-10' id='left'>
+        <div className="mb-5">
           <label for="exampleFormControlInput1" className="form-label">Name</label>
 
 
           <input
             className='form-control'
-            value={yourName}
+            value={yourname}
             name="name"
             onChange={handleInputChange}
             type="text"
@@ -75,7 +75,7 @@ function Contact() {
         </div>
       </div>
 
-      <div className='col-6' id='right'>
+      <div className='col-6 flex' id='right'>
         <h3>hello</h3>
       </div>
     </div>
