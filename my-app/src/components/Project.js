@@ -15,9 +15,9 @@ function Project({projects}) {
   return (
     
     <div>
-      <ul className='display'>
+      <ul className='row display'>
         {projects.map((project) => (
-          <li className='list-group-item' key={project.id}>
+          <li className='col-6 list-group-item' key={project.id}>
             {`${project.title} ${project.name}`}
           </li>
         ))}
