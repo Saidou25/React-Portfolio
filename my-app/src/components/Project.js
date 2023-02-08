@@ -1,0 +1,30 @@
+import React from 'react';
+// import '../../styles.css/Portfolio.css'
+
+// import logo from '../../images/logo.png';
+// import seo from '../../images/seoFour.png';
+// import weather from '../../images/weatherFour.png';
+// import sofa from '../../images/sofa.png';
+// import team from '../../images/teamfour.png';
+// import employee from '../../images/employee.png';
+// import print from '../../images/searchfour.png';
+
+
+function Project({projects}) {
+  
+  return (
+    
+    <div>
+      <ul className='display'>
+        {projects.map((project) => (
+          <li>
+            {`${project.pro.title} ${project.pro.name}`}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+
+export default Project;

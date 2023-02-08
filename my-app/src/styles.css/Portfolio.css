@@ -1,17 +1,3 @@
 .body {
   max-width: 60%;
 }
-.container {
-    position: relative;
-    text-align: center;
-    color: rgb(53, 17, 151);
-  }
-  
-  .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-  }
-  
-
-  
