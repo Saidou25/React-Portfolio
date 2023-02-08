@@ -3,20 +3,14 @@ import Project from '../Project';
 
 const projects = [
 {
-    pro: {
-
+        id: 1,
         title: 'p1',
         name: 'Alex',
-
-    },
 },
 {
-    pro: {
-
+        id: 2,
         title: 'p2',
         name: 'Alex',
-
-    }
 },
 
 ];

@@ -17,8 +17,8 @@ function Project({projects}) {
     <div>
       <ul className='display'>
         {projects.map((project) => (
-          <li>
-            {`${project.pro.title} ${project.pro.name}`}
+          <li className='list-group-item' key={project.id}>
+            {`${project.title} ${project.name}`}
           </li>
         ))}
       </ul>
