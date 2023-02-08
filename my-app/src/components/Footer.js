@@ -2,6 +2,8 @@ import React from 'react';
 import '../styles.css/Footer.css'
 // import logo from '../images/logo.png';
 // import twitterlogo from '../images/twitterlogos.png';
+// import logo from '../images/logo.png';
+// import twitterlogo from '../images/twitterlogos.png';
 
 
 function Footer() {

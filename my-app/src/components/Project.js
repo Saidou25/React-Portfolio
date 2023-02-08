@@ -12,6 +12,7 @@ function Project({ projects }) {
             {`${project.title} ${project.name}`}
             <img className='image' src='images/robot01.png' alt={project.title} />
           </li>
+          
         ))}
       </ul>
     </div>
