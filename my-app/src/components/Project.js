@@ -19,6 +19,8 @@ function Project({projects}) {
         {projects.map((project) => (
           <li className='col-6 list-group-item' key={project.id}>
             {`${project.title} ${project.name}`}
+            <img className='image' src={project.image} alt={project.title} />
+          
           </li>
         ))}
       </ul>
