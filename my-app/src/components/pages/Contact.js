@@ -1,11 +1,14 @@
 import React, { useState } from "react";
-import "../../styles.css/Contact.css"
+import "../../styles.css/Contact.css";
+
 
 function Contact() {
 
   const [yourname, setYourName] = useState("");
   const [email, setEmail] = useState("");
   const [comment, setComment] = useState("");
+
+  const validEmail = /^\S+@\S+\.\S+$/;
 
   const handleInputChange = (e) => {
 
@@ -14,27 +17,37 @@ function Contact() {
     if (name === "name") {
       setYourName(value);
     }
-    else if (name === "email") {
+    if (name === "email") {
+
       setEmail(value);
     }
-    else if (name === "comment") {
+    if (name === "comment") {
       setComment(value);
     }
   };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    setYourName("");
-    setEmail("");
-    setComment("");
-    alert(`Thank you for your Submission ${yourname}.`)
+
+    if (validEmail.test(email)) {
+
+      alert(`Thank you for your Submission ${yourname}.`);
+
+      setYourName("");
+      setEmail("");
+      setComment("");
+    }
+    else {
+      alert(`You entered an invalid password ${yourname}.`);
+      setEmail("");
+    }
   };
 
   return (
     <div className="row formContainer t-30">
       <div className="col-6 flex m-10" id="left-box">
         <div className="mb-5">
-          
+
           <label for="exampleFormControlInput1" className="form-label">Name</label>
           <input
             className="form-control"
