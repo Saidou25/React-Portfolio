@@ -11,7 +11,7 @@ function Project({ projects }) {
           {projects.map((project) => (
             <div className='col-6' id='effect' flex m-8 key={project.id}>
               <div className='card flex'>
-                <img className='image' src={project.image} alt='{project.title}' />
+                <img className='image' src={project.image} alt={project.title} />
                 <div class="card-img-overlay" id="text">
                   <a href="https://saidou25.github.io/seo-refactor/">
                     <h3 class="card-title">{project.title}</h3>

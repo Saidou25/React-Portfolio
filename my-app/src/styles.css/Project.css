@@ -1,34 +1,42 @@
+.container {
+    margin-top: 44px;
+    background-color: bisque;
+}
+
 #text {
     display: flex;
-   justify-content: flex-start;
-   align-items: center;
-   opacity: 0;
-   
+    justify-content: flex-start;
+    align-items: center;
+    opacity: 0;
 }
 
-.container {
-    max-width: 60%;
+.display {
+    max-width: 50%;
     background-color: coral;
-
 }
-
 .card:hover #text {
     opacity: 1;
     padding: 8px;
-  
 }
+
 .card:hover img {
     opacity: 0.3;
     padding: 8px;
-  
 }
+
 .card-img:hover {
     background-color: yellow;
 }
-#image {
-    background-size: cover;
 
+.image {
+
+    object-fit: cover;
+    height: 200px;
+    border: solid;
+    border-color: black;
+    margin: 12px;
 }
+
 #logo {
     float: left;
 }

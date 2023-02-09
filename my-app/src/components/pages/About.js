@@ -1,11 +1,11 @@
 import React from 'react';
-// import myPic from '../../images/robot01.png'
+import "../../styles.css/About.css"
 function About() {
 
   return (
     <div>
       <h3>About Me</h3>
-      <div className='row flex' id='about'>
+      <div className='row justify-content-center' id='about'>
         <div className='col-3'>
           <img src='images/robot01.png' className="img-fluid" alt="robot icon"></img>
         </div>

@@ -1,10 +1,9 @@
-
-
 .row-header {
     color: black;
     align-items: center;
     background-color: antiquewhite;
     height: 150px; 
+    max-width: 100%;
 }
 
 .nav-item {
