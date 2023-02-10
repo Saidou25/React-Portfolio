@@ -23,9 +23,22 @@ const projects = [
         },
         {
                 id: 4,
-                title: 'sofa',
+                title: 'fa',
                 image: "images/sofa.png",
                 logo: "images/logo.png,"
+        },
+        {
+                id: 5,
+                title: 'so',
+                image: "images/seoFour.png",
+                logo: "images/logo.png,"
+        },
+        {
+                id: 6,
+                title: 'weather',
+                image: 'images/weatherFour.png',
+                logo: "images/logo.png,"
+
         },
 ];
 console.log(projects);

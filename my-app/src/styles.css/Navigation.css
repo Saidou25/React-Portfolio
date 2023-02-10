@@ -1,17 +1,19 @@
  .header {
-    color: black;
-    align-items: center;
-    background-color: rgb(245, 233, 214);
-    height: 150px; 
-   
-   
+     color: black;
+     align-items: center;
+     background-color: rgb(245, 233, 214);
+     height: 150px;
+     position: fixed;
+     top: 0;
+     width: 100%;
+
  }
 
-.nav-item {
-    color: black;
-}
+ .nav-item {
+     color: black;
+ }
 
-h1 {
-    text-align: center;
-    margin-left: 20px;
-}  
+ h1 {
+     text-align: center;
+     margin-left: 20px;
+ }

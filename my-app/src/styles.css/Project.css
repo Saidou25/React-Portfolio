@@ -2,8 +2,7 @@
     text-align: center;
     margin: 40px;
 }
-.container {
-   
+.container { 
     background-color: bisque;
 }
 
@@ -24,7 +23,7 @@
 }
 
 .card:hover img {
-    opacity: 0.3;
+    opacity: 0.1;
     padding: 8px;
 }
 

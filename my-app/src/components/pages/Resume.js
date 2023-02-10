@@ -4,17 +4,19 @@ import "../../styles.css/Resume.css"
 function Resume() {
 
   return (
-    <div className='container'>
-      <h3>Foundation</h3>
-      <div>
+
+    <div className='main'>
+    <div className='main-container'>
+      <h3 className='titles'>Foundation</h3>
+    
         <p> HTML and CSS</p>
         <p>Gitl</p>
         <p>Third-party APIs (jQuery, Bootstrap)</p>
         <p>Server-side APIs, AJAX, and JSON</p>
         <p></p>
-      </div>
-      <h3>Technical</h3>
-      <div>
+     
+      <h3 className='titles'>Technical</h3>
+      
         <p>Node.js</p>
         <p>Object-oriented programming (OOP)</p>
         <p>Express.js servers</p>
@@ -24,17 +26,18 @@ function Resume() {
         <p>Unit testing</p>
         <p>Agile methodology</p>
         <p>Heroku</p>
-      </div>
-      <h3>Performance</h3>
-      <div>
+     
+      <h3 className='titles'>Performance</h3>
+     
         <p>Computer science</p>
         <p>MongoDB and NoSQL</p>
         <p>Progressive web apps (PWAs)</p>
         <p>React</p>
         <p>MERN</p>
-        <p>Portfopos</p>
       </div>
     </div>
+   
+  
   );
 }
 
