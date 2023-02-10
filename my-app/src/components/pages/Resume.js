@@ -1,28 +1,42 @@
 import React from 'react';
+import "../../styles.css/Resume.css"
 
 function Resume() {
-    
-    return (
+
+  return (
+    <div className='container'>
+      <h3>Foundation</h3>
       <div>
-      <h3>My Resume</h3>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+        <p> HTML and CSS</p>
+        <p>Gitl</p>
+        <p>Third-party APIs (jQuery, Bootstrap)</p>
+        <p>Server-side APIs, AJAX, and JSON</p>
+        <p></p>
+      </div>
+      <h3>Technical</h3>
+      <div>
+        <p>Node.js</p>
+        <p>Object-oriented programming (OOP)</p>
+        <p>Express.js servers</p>
+        <p>MySQL</p>
+        <p>Object-relational mapper, or ORM (Sequepze)</p>
+        <p>Model-view-controller (MVC) framework (Handlebars.js)</p>
+        <p>Unit testing</p>
+        <p>Agile methodology</p>
+        <p>Heroku</p>
+      </div>
+      <h3>Performance</h3>
+      <div>
+        <p>Computer science</p>
+        <p>MongoDB and NoSQL</p>
+        <p>Progressive web apps (PWAs)</p>
+        <p>React</p>
+        <p>MERN</p>
+        <p>Portfopos</p>
+      </div>
     </div>
-      );
-    }
-    
-    export default Resume;
-    
+  );
+}
+
+export default Resume;
+

@@ -1,12 +1,17 @@
-/* 
-
-.row-header {
+ .header {
     color: black;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: rgb(245, 233, 214);
     height: 150px; 
-}
+   
+   
+ }
 
 .nav-item {
     color: black;
-} */
+}
+
+h1 {
+    text-align: center;
+    margin-left: 20px;
+}  

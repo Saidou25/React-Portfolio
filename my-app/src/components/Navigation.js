@@ -1,12 +1,12 @@
 import React from 'react';
-import '../styles.css/Header.css'
+import '../styles.css/Navigation.css'
 
 function Navigation({currentPage, handlePageChange}) {
 
   return (
 
-    <div className='row row-header'>
-      <div className='col-4 myname'><h1>Sy</h1>
+    <div className='row header'>
+      <div className='col-4 myname'><h1>Saidou Monta</h1>
       </div>
       <div className='col-8'>
 

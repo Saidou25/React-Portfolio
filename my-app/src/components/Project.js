@@ -6,6 +6,7 @@ function Project({ projects }) {
   return (
 
     <div>
+      <h3 className='my-projects'>Projects</h3>
       <div className='container'>
         <div className='row display'>
           {projects.map((project) => (
@@ -26,8 +27,8 @@ function Project({ projects }) {
         </div>
       </div >
     </div >
-  );
-}
+  )
+};
 
 
 export default Project;
