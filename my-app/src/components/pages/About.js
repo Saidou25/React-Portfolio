@@ -3,14 +3,15 @@ import "../../styles.css/About.css"
 function About() {
 
   return (
-    <div>
+    <div className='about'>
       <h3 className='title'>About Me</h3>
       <div className='row'>
-        <div className='col-3 about'>
-          <img src='images/robot01.png' className="img-fluid" alt="robot icon"></img>
+        <div className='col-5 flex'>
+          <img src='images/robot01.png' className="responsive flex" alt="robot icon"></img>
         </div>
-        <div className='col-9'>
+        <div className='col-7 flex'>
           <p className='story'>
+
             Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
             Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
             dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
@@ -24,8 +25,8 @@ function About() {
             in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
             bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
             est ligula suscipit velit, sed bibendum turpis dui in sapien.
-          </p>
 
+          </p>
         </div>
       </div>
     </div>

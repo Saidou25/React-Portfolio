@@ -44,11 +44,13 @@ function Contact() {
   };
 
   return (
-    <div className="row formContainer t-30">
-      <div className="col-6 flex m-10" id="left-box">
+    <div className="row-formContainer t-30">
+      <div className="col-6 left-box flex m-10">
         <div className="mb-5">
 
-          <label for="exampleFormControlInput1" className="form-label">Name</label>
+          <label className="form-label">
+            Name
+            </label>
           <input
             className="form-control"
             value={yourname}
@@ -58,7 +60,9 @@ function Contact() {
             placeholder="Name"
           />
 
-          <label for="exampleFormControlInput1" className="form-label">email</label>
+          <label className="form-label">
+            email
+            </label>
           <input
             className="form-control"
             value={email}
@@ -68,7 +72,9 @@ function Contact() {
             placeholder="example@example.com"
           />
 
-          <label for="exampleFormControlInput1" className="form-label">Comment</label>
+          <label className="form-label">
+            Comment
+            </label>
           <textarea
             className="form-control"
             value={comment}
@@ -87,8 +93,10 @@ function Contact() {
         </div>
       </div>
 
-      <div className="col-6 flex" id="right-box">
-        <h3>hello</h3>
+      <div className="col-6 right-box flex">
+        <h1>Async</h1>
+        <h1>Await</h1>
+
       </div>
     </div>
   )

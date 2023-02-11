@@ -1,42 +1,37 @@
-.formContainer {
+.row-formContainer {
+    display: flex;
     border-color: black;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 650px;
     align-items: center;
-    background-color: rgb(236, 190, 121);
-    /* border-style: solid; */
-
+    margin-top: 12%;
 }
 
-#left-box {
-    border-color: black;
-    /* border-style: solid; */
-    background-color: rgb(186, 162, 77);
-    align-items: center;
-    margin-left: 60px;
+.left-box {
+
+    /* border-color: black; */
+    /* border: solid; */
+    /* background-color: rgb(186, 162, 77); */
+    /* align-items: center; */
+    /* margin-left: 60px; */
     max-width: 33%;
-    height: 70%;
+    /* height: 70%; */
+    /* justify-content: center; */
+}
+
+/* .right-box {
     justify-content: center;
 }
-
-
-#right-box {
-    /* border-style: solid; */
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: rgb(82, 232, 232);
-    color: black;
-    max-width: 33%;
-    margin-right: 15%;
-
-}
-
+*/
 .form-label {
-    margin: 8px;
+    margin: 10px;
 }
+
+/* .comment {
+    overflow: hidden;
+    flex-wrap: wrap; 
+} */
 
 .btn-primary {
     margin-top: 50px;
-    
 }

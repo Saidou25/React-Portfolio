@@ -1,12 +1,30 @@
-.title {
-    text-align: center;
-    margin: 40px;
-}
-.col-9 {
-   border-left: solid;
-    /* background-color: bisque; */
-}
-.story {
-    margin: 40px;
-    max-width: 70%;
-}
+ .title {
+     text-align: center;
+     height: 65px;
+     margin-bottom: 20px;
+ }
+
+ .col-7 {
+     border-left: 1px solid;
+     border-top-color: black;
+ }
+
+ .about {
+     margin-top: 220px;
+     align-items: center;
+     height: 550px;
+     width: 80%;
+ }
+
+ .responsive {
+     width: 100%;
+     max-width: 300px;
+     height: auto;
+     margin-left: 80px;
+     justify-content: center;
+ }
+
+ .story {
+     margin-right: 60px;
+     margin-left: 15px;
+ }
