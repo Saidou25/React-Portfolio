@@ -6,13 +6,13 @@ function Project({ projects }) {
   return (
 
     <div>
-      <h3 className='my-projects'>Projects</h3>
       <div className='container'>
-        <div className='row display'>
+      <h3 className='my-projects'>Projects</h3>
+        <div className='display'>
           {projects.map((project) => (
-            <div className='col-6' id='effect' flex m-8 key={project.id}>
-              <div className='card flex'>
-                <img className='image' src={project.image} alt={project.title} />
+            <div className='effect' key={project.id}>
+              <div className='card'>
+                <img className='image responsive' src={project.image} alt={project.title} />
                 <div class="card-img-overlay" id="text">
                   <a href="https://saidou25.github.io/seo-refactor/">
                     <h3 class="card-title">{project.title}</h3>
