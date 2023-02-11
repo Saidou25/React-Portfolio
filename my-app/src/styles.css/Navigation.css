@@ -1,12 +1,9 @@
  .header {
+    /* display: flex; */
      color: black;
      align-items: center;
      background-color: rgb(245, 233, 214);
      height: 150px;
-     position: fixed;
-     top: 0;
-     width: 100%;
-
  }
 
  .nav-item {
@@ -16,4 +13,12 @@
  h1 {
      text-align: center;
      margin-left: 20px;
+ }
+
+ .myname {
+    display: flex;
+ }
+ .col-8 {
+    display: flex;
+    justify-content: flex-end;
  }

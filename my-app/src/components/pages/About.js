@@ -6,10 +6,10 @@ function About() {
     <div className='about'>
       <h3 className='title'>About Me</h3>
       <div className='row'>
-        <div className='col-5 flex'>
+        <div className='col-5'>
           <img src='images/robot01.png' className="responsive flex" alt="robot icon"></img>
         </div>
-        <div className='col-7 flex'>
+        <div className='col-7'>
           <p className='story'>
 
             Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.

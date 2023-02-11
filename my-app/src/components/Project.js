@@ -6,12 +6,12 @@ function Project({ projects }) {
   return (
 
     <div>
+        <h3 className='my-projects'>Projects</h3>
       <div className='container'>
-      <h3 className='my-projects'>Projects</h3>
         <div className='display'>
           {projects.map((project) => (
             <div className='effect' key={project.id}>
-              <div className='card'>
+              <div className='card border-0'>
                 <img className='image responsive' src={project.image} alt={project.title} />
                 <div class="card-img-overlay" id="text">
                   <a href="https://saidou25.github.io/seo-refactor/">

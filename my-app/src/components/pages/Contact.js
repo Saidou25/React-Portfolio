@@ -44,7 +44,7 @@ function Contact() {
   };
 
   return (
-    <div className="row-formContainer t-30">
+    <div className="row-formContainer">
       <div className="col-6 left-box flex m-10">
         <div className="mb-5">
 
@@ -76,12 +76,12 @@ function Contact() {
             Comment
             </label>
           <textarea
-            className="form-control"
+            className="form-control comments"
             value={comment}
             name="comment"
             onChange={handleInputChange}
             type="text"
-            placeholder="Comment"
+            placeholder="Comments"
           ></textarea>
 
           <button

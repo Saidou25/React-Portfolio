@@ -1,19 +1,16 @@
 .my-projects {
     text-align: center;
-    margin-top: 200px;
-    margin-bottom:50px;
+    margin-top: 50px;
+    margin-bottom:30px;
 }
 .container { 
-    background-color: bisque;
-    margin-top: 155px;
-    height: 650px;
-    /* overflow: hidden; */
-
+    height: 550px;
+    max-width: 50%;  
 }
 
 #text {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     opacity: 0;
 }
@@ -33,28 +30,30 @@
 }
 
 .image {
-
-    /* object-fit: fit; */
-    height: 200px;
-    margin: 12px;
+    height: 205px;
     align-self: center;
-    overflow: hidden;
+    width: 100%;
+     max-width: 305px;
+   
+    
 }
 
 #logo {
     float: left;
 }
 
-.card {
-    overflow: hidden;
-    width: 300px;
+.card { 
+    width: 355px;
     margin-bottom: 40px;
+
     
 }
 .display {
     display: flex;
+    max-width: 80%;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 8px;
-    /* overflow: hidden; */
+    max-width: 100%;;
+    
 }

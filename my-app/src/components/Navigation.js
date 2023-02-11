@@ -10,7 +10,7 @@ function Navigation({currentPage, handlePageChange}) {
       </div>
       <div className='col-8'>
 
-        <ul className="nav justify-content-end">
+        <ul className="nav">
           <li className="nav-item">
             <a
               href="#About"

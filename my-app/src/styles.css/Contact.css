@@ -1,36 +1,33 @@
 .row-formContainer {
     display: flex;
-    border-color: black;
-    justify-content: space-around;
     height: 650px;
-    align-items: center;
-    margin-top: 12%;
+    margin-top: 20px;
+    
 }
 
 .left-box {
-
-    /* border-color: black; */
-    /* border: solid; */
-    /* background-color: rgb(186, 162, 77); */
-    /* align-items: center; */
-    /* margin-left: 60px; */
+    align-items: center;
     max-width: 33%;
-    /* height: 70%; */
-    /* justify-content: center; */
+    height: 60px;
+    margin-left: 70px;
 }
 
-/* .right-box {
+.right-box {
+    margin-top:200px;
     justify-content: center;
+    align-items:center;
+    
 }
-*/
+
 .form-label {
     margin: 10px;
 }
 
-/* .comment {
+.comments {
+    display: flex;
     overflow: hidden;
-    flex-wrap: wrap; 
-} */
+    height: 150px;
+}
 
 .btn-primary {
     margin-top: 50px;
