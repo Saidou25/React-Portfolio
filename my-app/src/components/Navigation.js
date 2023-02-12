@@ -1,7 +1,8 @@
 import React from 'react';
 import '../styles.css/Navigation.css'
 
-function Navigation({currentPage, handlePageChange}) {
+
+function Navigation({ currentPage, handlePageChange, pages }) {
 
   return (
 
@@ -9,43 +10,25 @@ function Navigation({currentPage, handlePageChange}) {
       <div className='col-4 myname'><h1>Saidou Monta</h1>
       </div>
       <div className='col-8'>
-
-        <ul className="nav">
-          <li className="nav-item">
-            <a
-              href="#About"
-              onClick={() => handlePageChange('About')}
-              className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-            >About
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              href="#Portfolio"
-              onClick={() => handlePageChange('Portfolio')}
-              className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
-              Portfolio</a>
-          </li>
-          <li className="nav-item">
-            <a
-              href="#Contact"
-              onClick={() => handlePageChange('Contact')}
-              className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
-              Contact</a>
-          </li>
-          <li className="nav-item">
-            <a
-              href="#Resume"
-              onClick={() => handlePageChange('Resume')}
-              className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
-              Resume</a>
-          </li>
-        </ul>
+        <div className="navbar">
+          <div className="navbar" id='nav'>
+            {pages.map((page) => (
+              <article key={page} className='nav-item'>
+                <a
+                  href={`#${page.toLowerCase()}`}
+                  onClick={() => handlePageChange(page)}
+                  className={currentPage === page ? 'nav-link-active text-dark' : 'nav-link'}
+                  id='nav-link'
+                >
+                  {page}
+                </a>
+              </article>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
-
   );
-
 };
 
 export default Navigation;
