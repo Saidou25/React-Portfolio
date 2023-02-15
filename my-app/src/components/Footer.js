@@ -13,6 +13,9 @@ function Footer() {
        so i have linded all logos to my github instead. */}
         <img src='images/twitterlogos.png' alt="minibird"></img>
       </a>
+      <a href="https://www.linkedin.com/feed/">
+        <img className='responsivelogo' src='images/linkedin.png' alt="letters i and n"></img>
+      </a>
     </footer>
 
   );

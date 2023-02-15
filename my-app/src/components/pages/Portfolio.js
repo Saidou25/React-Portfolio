@@ -4,39 +4,39 @@ import Project from '../Project';
 const projects = [
         {
                 id: 1,
-                title: 'seo',
+                title: 'seo-refactor',
                 image: "images/seoFour.png",
                 logo: "images/logo.png,"
         },
         {
                 id: 2,
-                title: 'weather',
+                title: 'Weather-Dashboard',
                 image: 'images/weatherFour.png',
                 logo: "images/logo.png,"
 
         },
         {
                 id: 3,
-                title: 'team',
+                title: 'Team',
                 image: "images/teamfour.png",
                 logo: "images/logo.png,"
         },
         {
                 id: 4,
-                title: 'fa',
-                image: "images/sofa.png",
+                title: 'Autumn-in-Catalochee-Valley.',
+                image: "images/DSC09412.jpeg",
                 logo: "images/logo.png,"
         },
         {
                 id: 5,
-                title: 'so',
+                title: 'Employee--Tracker',
                 image: "images/seoFour.png",
                 logo: "images/logo.png,"
         },
         {
                 id: 6,
-                title: 'weather',
-                image: 'images/weatherFour.png',
+                title: 'Print-or-Film',
+                image: 'images/searchFour.png',
                 logo: "images/logo.png,"
 
         },
