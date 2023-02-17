@@ -2,9 +2,9 @@ import React from 'react';
 import Project from '../Project';
 import seoRefactor from '../../assets/images/seoFour.png';
 import weatherDashboard from '../../assets/images/weatherFour.png';
-import team from '../../assets/images/teamfour.png';
+import password from '../../assets/images/Gp.png';
 import autumn from '../../assets/images/DSC09412.jpeg';
-import employee from '../../assets/images/employee.png';
+import NoteTaker from '../../assets/images/note.3.png';
 import print from '../../assets/images/searchfour.png';
 import logo from '../../assets/images/logo.png';
 
@@ -19,30 +19,30 @@ const projects = [
         {
                 id: 2,
                 title: 'Weather-Dashboard',
-                name: 'Weather',
+                name: 'weather',
                 image: weatherDashboard,
                 logo: logo,
 
         },
         {
                 id: 3,
-                title: 'Team',
-                name: 'Team',
-                image: team,
+                title: 'Password-Generator',
+                name: 'Password',
+                image: password,
                 logo: logo,
         },
         {
                 id: 4,
-                title: 'Autumn-in-Catalochee-Valley',
+                title: 'Autumn-in-Catalochee-Valley.',
                 name: 'Autumn',
                 image: autumn,
                 logo: logo,
         },
         {
                 id: 5,
-                title: 'Tracker',
-                name: 'Emplohee',
-                image: employee,
+                title: 'Note-Taker-',
+                name: 'Employee',
+                image: NoteTaker,
                 logo: logo,
         },
         {

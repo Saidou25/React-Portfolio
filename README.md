@@ -1,9 +1,12 @@
 # [Reac-Portfolio](https://saidou25.github.io/React-Portfolio/)
+---
+[Link to repository](https://github.com/Saidou25/React-Portfolio.git)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
+This is an application showing my rsume and few of my projects for potential employers to view.
 
 ## Table of Contents
 
@@ -11,30 +14,32 @@
 * [Technologies](#technologies)
 * [Visuals](#visuals)
 * [License](#license)
-* [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
 
 ## Installation
 
-```nodemon``` start the app in the browser and keeps it update with on going local modification.
+```npm start``` open the app in the browser and keeps it updated with current changes.
 
 ## Technologies
 
 ```bootstrap```
+
 ```bootswatch ```
+
 ```react"```
+
 ```webpack```
 
 ## Visuals
 
 Here is a visual of the landing page:
 
-![Screenshot](./public/images/app-login-page.png)
+![Screenshot](src/assets/images/about.png)
 
 This page shows few of my Projects:
 
-![Screenshot](./public/images/app-homepage.png)
+![Screenshot](src/assets/images/projects.png)
 
 
 
@@ -50,5 +55,5 @@ N/A
 
 ## Questions
 
-If you have any other questions, please visit our [Sy25](https://github.com/Saidou25/React-Portfolio).
+If you have any questions comments or concerns please reach [Sy25](https://github.com/Saidou25/React-Portfolio).
 

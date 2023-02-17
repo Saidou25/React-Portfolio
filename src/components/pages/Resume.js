@@ -6,10 +6,11 @@ function Resume() {
   return (
 
     <div className="resume">
+      <a className="resumelink" href="https://drive.google.com/file/d/11sNa9tlWpeUklJvETexl_Ms0bNcbLkiy/view?usp=share_link">(Link to downloadable document)</a>
       <h3 className="titles">Foundation</h3>
 
       <p> HTML and CSS</p>
-      <p>Gitl</p>
+      <p>Git</p>
       <p>Third-party APIs (jQuery, Bootstrap)</p>
       <p>Server-side APIs, AJAX, and JSON</p>
       <p></p>

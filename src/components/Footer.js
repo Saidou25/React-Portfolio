@@ -16,7 +16,7 @@ function Footer() {
        so i have linded all logos to my github instead. */}
         <img src={twitter} alt="minibird"></img>
       </a>
-      <a href="https://github.com/Saidou25">
+      <a href="https://www.linkedin.com/feed/">
         <img src={linkedIn} className='linkedIn' alt="letters l n"></img>
       </a>
     </footer>
