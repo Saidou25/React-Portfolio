@@ -1,43 +1,56 @@
 import React from 'react';
 import Project from '../Project';
+import seoRefactor from '../../assets/images/seoFour.png';
+import weatherDashboard from '../../assets/images/weatherFour.png';
+import team from '../../assets/images/teamfour.png';
+import autumn from '../../assets/images/DSC09412.jpeg';
+import employee from '../../assets/images/employee.png';
+import print from '../../assets/images/searchfour.png';
+import logo from '../../assets/images/logo.png';
 
 const projects = [
         {
                 id: 1,
                 title: 'seo-refactor',
-                image: "images/seoFour.png",
-                logo: "images/logo.png,"
+                name: 'Seo',
+                image: seoRefactor,
+                logo: logo,
         },
         {
                 id: 2,
                 title: 'Weather-Dashboard',
-                image: 'images/weatherFour.png',
-                logo: "images/logo.png,"
+                name: 'Weather',
+                image: weatherDashboard,
+                logo: logo,
 
         },
         {
                 id: 3,
                 title: 'Team',
-                image: "images/teamfour.png",
-                logo: "images/logo.png,"
+                name: 'Team',
+                image: team,
+                logo: logo,
         },
         {
                 id: 4,
-                title: 'Autumn-in-Catalochee-Valley.',
-                image: "images/DSC09412.jpeg",
-                logo: "images/logo.png,"
+                title: 'Autumn-in-Catalochee-Valley',
+                name: 'Autumn',
+                image: autumn,
+                logo: logo,
         },
         {
                 id: 5,
-                title: 'Employee--Tracker',
-                image: "images/seoFour.png",
-                logo: "images/logo.png,"
+                title: 'Tracker',
+                name: 'Emplohee',
+                image: employee,
+                logo: logo,
         },
         {
                 id: 6,
                 title: 'Print-or-Film',
-                image: 'images/searchFour.png',
-                logo: "images/logo.png,"
+                name: 'Print',
+                image: print,
+                logo: logo,
 
         },
 ];

@@ -1,5 +1,6 @@
 import React from 'react';
-import "../../styles/About.css"
+import "../../styles/About.css";
+import robot from '../../assets/images/robot01.png';
 function About() {
 
   return (
@@ -7,7 +8,7 @@ function About() {
       <h3 className='title'>About Me</h3>
       <div className='row'>
         <div className='col-5'>
-          <img src='images/robot01.png' className="responsive flex" alt="robot icon"></img>
+          <img src={robot} className="responsive flex" alt="robot icon"></img>
         </div>
         <div className='col-7'>
           <p className='story'>

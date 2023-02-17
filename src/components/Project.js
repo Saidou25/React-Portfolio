@@ -5,6 +5,7 @@ function Project({ projects }) {
 
   return (
 
+
     <div>
         <h3 className='my-projects'>Projects</h3>
       <div className='container'>
@@ -15,12 +16,13 @@ function Project({ projects }) {
                 <img className='image responsive' src={project.image} alt={project.title} />
                 <div className="card-img-overlay" id="text">
                   <a href={`https://saidou25.github.io/${project.title}`} >
-                    <h4 className="card-title">{project.title}</h4>
+                    <h4 className="card-title">{project.name}</h4>
                   </a>
-                  <a href="https://github.com/Saidou25/seo-refactor">
-                    <img className='logo' id="text" src='images/logo.png' alt="minicat" />
+                  <a href={`https://github.com/Saidou25/${project.title}`}>
+                    <img className='logo' id="text" src={project.logo} alt="minicat" />
                   </a>
                 </div>
+
               </div>
             </div>
           ))}
