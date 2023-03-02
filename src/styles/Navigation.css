@@ -1,13 +1,15 @@
  .header {
-    /* display: flex; */
+    
      color: black;
      align-items: center;
+     justify-content: space-between;
      background-color: rgb(245, 233, 214);
      height: 150px;
  }
 
  .nav-item {
      color: black;
+     
  }
 
  h1 {
@@ -15,10 +17,18 @@
      margin-left: 20px;
  }
 
- .myname {
-    display: flex;
- }
- .col-8 {
+.navigation {
     display: flex;
     justify-content: flex-end;
- }
+}
+@media screen and (max-width: 390px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item {
+        /* justify-content: center; */
+        color: black;
+        
+    }
+}
