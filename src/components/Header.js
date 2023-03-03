@@ -35,12 +35,10 @@ const Header = () => {
 
     return (
         <div>
-
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} pages={pages} />
             {renderPage()}
-
         </div>
-    );
-}
+    )
+};
 
 export default Header;

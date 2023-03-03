@@ -8,10 +8,27 @@
     background-color: antiquewhite;
     height: 120px;
 }
+
 .linkedIn {
     max-width: 45px;
     margin: 5px;
 }
+
 .github {
     max-width: 45px;
+}
+
+@media screen and (max-width: 415px) {
+    .footer {
+        height: 70px;
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .footer {
+        height: 70px;
+        position: fixed;
+        bottom: 0;
+    }
 }

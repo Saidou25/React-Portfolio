@@ -1,6 +1,7 @@
  .title {
      text-align: center;
      height: 65px;
+     margin-top: 50px;
      margin-bottom: 20px;
  }
 
@@ -10,11 +11,11 @@
  }
 
  .about {
-     margin-top: 50px;
-     height: 550px;
+     height: 665px;
      width: 70%;
      margin-right: auto;
      margin-left: auto;
+     overflow: scroll;
  }
 
  .responsive {
@@ -24,12 +25,13 @@
      margin-right: auto;
      margin-left: auto;
      margin-top: -20px;
+     border-radius:50%;
  }
 
  .story {
      margin-right: 60px;
      margin-left: 15px;
-     margin-right: 60px;
+    
  }
 
  @media screen and (max-width: 990px) {
@@ -39,8 +41,8 @@
 
      .about-me {
          padding-top: 30px;
-
-     }
+         
+        }
 
      .title {
          text-align: center;
@@ -49,11 +51,11 @@
      }
 
      .about {
-         margin-top: 50px;
-         height: 550px;
+         height: 670px;
          width: 80%;
          margin-right: auto;
          margin-left: auto;
+         overflow: scroll;
      }
 
      .responsive {
@@ -71,4 +73,42 @@
          display: flex;
          align-items: center;
      }
+     .story {
+      
+        margin-left: 2px;
+        margin-right: 2px;
+        
+    }
+    @media screen and (max-width: 415px) {
+        .about {
+            height: 690px;
+            width: 80%;
+            margin-right: auto;
+            margin-left: auto;
+            overflow: scroll;
+        }
+      
+        .story { 
+            margin-left: 2px;
+            margin-right: 2px;          
+        }
+    }
+    @media screen and (max-width: 390px) {
+        .about {
+            height: 1000px;
+            width: 80%;
+            margin-right: auto;
+            margin-left: auto;
+            overflow: scroll;
+        }
+    }
+    @media screen and (max-width: 375px) {
+        .about {
+            height: 1050px;
+            width: 80%;
+            margin-right: auto;
+            margin-left: auto;
+            overflow: scroll;
+        }
+    }
  };

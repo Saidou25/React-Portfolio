@@ -1,6 +1,6 @@
 import React from 'react';
 import "../../styles/About.css";
-import robot from '../../assets/images/robot01.png';
+import me from '../../assets/images/me.jpg';
 function About() {
 
   return (
@@ -8,9 +8,10 @@ function About() {
       <h3 className='title'>About Me</h3>
       <div className='row'>
         <div className='col-lg-5 col-md-12 worker'>
-          <img src={robot} className="responsive" alt="Worker"></img>
+          <img src={me} className="responsive" alt="Worker"></img>
         </div>
         <div className='col-lg-7 col-md-12 flex about-me'>
+
           <p className='story'>
             Entry-level full stack web developer with proven problem solving, organization and research Skills.</p>
           <p className='story'>
@@ -26,9 +27,9 @@ function About() {
           <p className='story'>
             Seeking a full stack web developer role to pursue my new passion for building web sites and applications and grow with and within a conpany.
           </p>
+          </div>
         </div>
       </div>
-    </div>
-  );
+  )
 };
 export default About;

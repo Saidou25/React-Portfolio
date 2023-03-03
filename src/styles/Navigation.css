@@ -27,8 +27,9 @@
         align-items: center;
     }
     .nav-item {
-        /* justify-content: center; */
-        color: black;
-        
+        color: black;      
     }
-}
+    .myname {
+        padding-top:10px;
+    }
+};
