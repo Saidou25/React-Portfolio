@@ -1,5 +1,5 @@
 .container-resume {
-    height: 700px;
+    height: 650px;
     text-align: center;
     overflow: scroll;
     padding-top: 30px;
@@ -10,6 +10,10 @@
 
 .titles {
     margin: 40px;
+}
+
+.resume-link {
+    padding-top: 10px;
 }
 
 @media screen and (max-width: 390px) {

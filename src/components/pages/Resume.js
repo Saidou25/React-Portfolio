@@ -22,7 +22,7 @@ function Resume() {
       <p>Object-oriented programming (OOP)</p>
       <p>Express.js servers</p>
       <p>MySQL</p>
-      <p>Object-relational mapper, or ORM (Sequepze)</p>
+      <p>Object-relational mapper, or ORM (Sequelize)</p>
       <p>Model-view-controller (MVC) framework (Handlebars.js)</p>
       <p>Unit testing</p>
       <p>Agile methodology</p>

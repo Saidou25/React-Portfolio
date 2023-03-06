@@ -1,11 +1,14 @@
 .my-projects {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom:30px;
+    /* margin-top: 50px; */
+    margin-bottom: 30px;
 }
-.container { 
-    height: 550px;
-    max-width: 50%;  
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    height: 500px;
+    margin-top: 80px;
 }
 
 #text {
@@ -30,33 +33,42 @@
 }
 
 .image {
-    height: 205px;
+    height: 200px;
+    object-fit: contain;
     align-self: center;
     width: 100%;
-     max-width: 305px;
    
-    
+
+}
+
+.effect {
+    justify-content: center;
 }
 
 #logo {
     float: left;
 }
 
-.card { 
-    width: 355px;
-    margin-bottom: 40px;
-
+.card {
+    width: 310px;
+    margin: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (max-width: 992px) {
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        height: 700px;
+        overflow: scroll;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        overflow: scroll;
+    }
     
 }
-.display {
-    display: flex;
-    max-width: 80%;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 8px;
-    max-width: 100%;;
-    
-}
-/* .card-title {
-    text-underline: none;
-} */

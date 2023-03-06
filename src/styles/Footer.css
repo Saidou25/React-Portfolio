@@ -2,11 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: antiquewhite;
-    height: 120px;
+    height: 110px;
 }
 
 .linkedIn {
@@ -21,14 +17,22 @@
 @media screen and (max-width: 415px) {
     .footer {
         height: 70px;
-        position: fixed;
+        display: flex;
+        justify-content: center;
     }
 }
-
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 390px) {
     .footer {
         height: 70px;
-        position: fixed;
-        bottom: 0;
+        display: flex;
+        justify-content: center;
     }
-}
+} */
+
+/* @media screen and (max-width: 375px) {
+    .footer {
+        height: 70px;
+        display: flex;
+        justify-content: center;
+    }
+} */
