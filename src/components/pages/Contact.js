@@ -38,65 +38,74 @@ function Contact() {
       setComment("");
     }
     else {
-      alert(`You entered an invalid password ${yourname}.`);
+      alert(`You entered an invalid email ${yourname}.`);
       setEmail("");
     }
   };
 
   return (
-    <div className="row-formContainer">
-      <div className="col-6 left-box flex m-10">
-        <div className="mb-5">
+    <div className="contact">
+    <div className="row">
+      <div className="formContainer">
+        <div className="col-6 left-box flex m-10">
+          <div className="mb-5">
 
-          <label className="form-label">
-            Name
+            <label className="form-label">
+              Name
             </label>
-          <input
-            className="form-control"
-            value={yourname}
-            name="name"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Name"
-          />
+            <input
+              className="form-control"
+              value={yourname}
+              name="name"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="Name"
+            />
 
-          <label className="form-label">
-            email
+            <label className="form-label">
+              email
             </label>
-          <input
-            className="form-control"
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="example@example.com"
-          />
+            <input
+              className="form-control"
+              value={email}
+              name="email"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="example@example.com"
+            />
 
-          <label className="form-label">
-            Comment
+            <label className="form-label">
+              Comment
             </label>
-          <textarea
-            className="form-control comments"
-            value={comment}
-            name="comment"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Comments"
-          ></textarea>
+            <textarea
+              className="form-control comments"
+              value={comment}
+              name="comment"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="Comments"
+            ></textarea>
 
-          <button
-            className="btn btn-primary"
-            type="button"
-            onClick={handleFormSubmit}>
-            Submit
-          </button>
+            <button
+              className="btn btn-primary"
+              type="button"
+              onClick={handleFormSubmit}>
+              Submit
+            </button>
+          </div>
         </div>
-      </div>
 
-      <div className="col-6 right-box flex">
-        <h1>Async</h1>
-        <h1>Await</h1>
-
+        <div className="col-6 right-box flex">
+          <div className="box">
+            <div className="inner">
+              <span>Async</span>
+            </div>
+            <div className="inner">
+              <span>Await</span>
+            </div>
+          </div>
+        </div>
+        </div>
       </div>
     </div>
   )

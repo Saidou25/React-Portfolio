@@ -5,7 +5,7 @@ import '../styles/Navigation.css'
 function Navigation({ currentPage, handlePageChange, pages }) {
 
   return (
-
+<div className='main'>
     <div className='row header'>
       <div className='col-lg-4 flex myname'><h1>Saidou Monta</h1>
       </div>
@@ -24,10 +24,10 @@ function Navigation({ currentPage, handlePageChange, pages }) {
             </article>
           ))}
         </div>
-
+      </div>
       </div>
     </div>
-  );
+  )
 };
 
 export default Navigation;

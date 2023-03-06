@@ -1,9 +1,34 @@
-.resume {
+.container-resume {
+    height: 700px;
     text-align: center;
     overflow: scroll;
-    height: 675px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .titles {
     margin: 40px;
 }
+
+@media screen and (max-width: 390px) {
+    .container-resume {
+        height: 620px;
+        text-align: center;
+        overflow: scroll;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container-resume {
+        height: 446px;
+        text-align: center;
+        overflow: scroll;
+        padding-top: 30px;
+        padding-bottom: 10px;
+
+    }
+}
+
+;

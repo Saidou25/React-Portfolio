@@ -5,8 +5,9 @@ function Resume() {
 
   return (
 
-    <div className="resume">
-      <a className="resumelink" href="https://drive.google.com/file/d/11sNa9tlWpeUklJvETexl_Ms0bNcbLkiy/view?usp=share_link">(Link to downloadable document)</a>
+    <div className="container-resume">
+      <a className="resume-link" 
+      href="https://drive.google.com/file/d/11sNa9tlWpeUklJvETexl_Ms0bNcbLkiy/view?usp=share_link">(Link to downloadable Resume)</a>
       <h3 className="titles">Foundation</h3>
 
       <p> HTML and CSS</p>
