@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.32f7925c.css",
-    "main.js": "/React-Portfolio/static/js/main.11913658.js",
-    "static/media/weather.png": "/React-Portfolio/static/media/weather.79b3f2fa6148c5aff833.png",
-    "static/media/me.jpg": "/React-Portfolio/static/media/me.09931c716c75c8ecaeb2.jpg",
-    "static/media/searchfour.png": "/React-Portfolio/static/media/searchfour.58e8371ff4ecf479cc75.png",
-    "static/media/seoFour.png": "/React-Portfolio/static/media/seoFour.a5403a1531e554c025d2.png",
-    "static/media/myteam.png": "/React-Portfolio/static/media/myteam.af2a2226d425956bcd9d.png",
-    "static/media/newpassword.png": "/React-Portfolio/static/media/newpassword.9b8d259c6ad0a5dfc2d2.png",
-    "static/media/note.3.png": "/React-Portfolio/static/media/note.3.ab7f8cf5fdfdbc2f29b2.png",
-    "static/media/linkedIn.png": "/React-Portfolio/static/media/linkedIn.820713580bd821c4dc2c.png",
-    "index.html": "/React-Portfolio/index.html",
-    "main.32f7925c.css.map": "/React-Portfolio/static/css/main.32f7925c.css.map",
-    "main.11913658.js.map": "/React-Portfolio/static/js/main.11913658.js.map"
+    "main.css": "/static/css/main.32f7925c.css",
+    "main.js": "/static/js/main.57074544.js",
+    "static/media/weather.png": "/static/media/weather.79b3f2fa6148c5aff833.png",
+    "static/media/me.jpg": "/static/media/me.09931c716c75c8ecaeb2.jpg",
+    "static/media/searchfour.png": "/static/media/searchfour.58e8371ff4ecf479cc75.png",
+    "static/media/seoFour.png": "/static/media/seoFour.a5403a1531e554c025d2.png",
+    "static/media/myteam.png": "/static/media/myteam.af2a2226d425956bcd9d.png",
+    "static/media/newpassword.png": "/static/media/newpassword.9b8d259c6ad0a5dfc2d2.png",
+    "static/media/note.3.png": "/static/media/note.3.ab7f8cf5fdfdbc2f29b2.png",
+    "static/media/linkedIn.png": "/static/media/linkedIn.820713580bd821c4dc2c.png",
+    "index.html": "/index.html",
+    "main.32f7925c.css.map": "/static/css/main.32f7925c.css.map",
+    "main.57074544.js.map": "/static/js/main.57074544.js.map"
   },
   "entrypoints": [
     "static/css/main.32f7925c.css",
-    "static/js/main.11913658.js"
+    "static/js/main.57074544.js"
   ]
 }
