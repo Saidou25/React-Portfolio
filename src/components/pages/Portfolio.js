@@ -1,9 +1,9 @@
 import React from 'react';
 import Project from '../Project';
 import seoRefactor from '../../assets/images/seoFour.png';
-import weatherDashboard from '../../assets/images/screenshot.png';
-import password from '../../assets/images/Gp.png';
-import autumn from '../../assets/images/DSC09412.jpeg';
+import weatherDashboard from '../../assets/images/weather.png';
+import password from '../../assets/images/newpassword.png';
+import team from '../../assets/images/myteam.png';
 import NoteTaker from '../../assets/images/note.3.png';
 import print from '../../assets/images/searchfour.png';
 import logo from '../../assets/images/logo.png';
@@ -33,9 +33,9 @@ const projects = [
         },
         {
                 id: 4,
-                title: 'Autumn-in-Catalochee-Valley.',
-                name: 'Autumn',
-                image: autumn,
+                title: 'Team',
+                name: 'My Team',
+                image: team,
                 logo: logo,
         },
         {
@@ -54,7 +54,7 @@ const projects = [
 
         },
 ];
-console.log(projects);
+
 
 function Portfolio() {
         return (
