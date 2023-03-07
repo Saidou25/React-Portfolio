@@ -1,5 +1,5 @@
 import React from "react";
-import "../../style/Resume.css"
+import "./Resume.css"
 
 function Resume() {
 
