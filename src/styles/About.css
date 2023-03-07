@@ -95,7 +95,7 @@
     }
     @media screen and (max-width: 390px) {
         .about {
-            height: 606px;
+            height: 666px;
             width: 95%;
             padding-right: 2px;
             padding-left: 2px;
@@ -106,7 +106,7 @@
     }
     @media screen and (max-width: 375px) {
         .about {
-            height: 446px;
+            height: 670px;
             width: 80%;
             margin-right: auto;
             margin-left: auto;

@@ -48,7 +48,7 @@ function Contact() {
     <div className="row-contact">
       <div className="formContainer">
         <div className="col-6 left-box flex m-10">
-          <div className="mb-5">
+          {/* <div className="mb-5"> */}
 
             <label className="form-label">
               Name
@@ -92,7 +92,7 @@ function Contact() {
               onClick={handleFormSubmit}>
               Submit
             </button>
-          </div>
+          {/* </div> */}
         </div>
 
         <div className="col-6 right-box flex">
